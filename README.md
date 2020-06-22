@@ -71,3 +71,16 @@ namespace SOLIDPrincipals.After.SRP
     }
 }
 ```
+## Open-closed principal
+Software entities such as modules, classes, functions, etc. should be open for extension, but closed for modification.
+
+The Open for extension means we need to design the software modules/classes in such a way that the new responsibilities or functionalities should be added easily when new requirements come. On the other hand, Closed for modification means, we should not modify the class/module until we find some bugs.
+
+### Why is this important? 
+We have already developed a class/module and it has gone through the unit testing phase. So we should not have to change this as it affects the existing functionalities. In simple words, we can say that we should develop an entity in such a way that it should allow its behavior to be extended without altering its source code.
+
+### Potential Impact by not following this principal
+* Adding new logic to an existing class or function requires testing all functionality, both old and new of the application.  
+* Potential to break the SRP as it may perform multiple responsibilities.
+* Implementing all the functionality in a single class adds difficulty to the maintenance.
+
