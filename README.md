@@ -84,3 +84,7 @@ We have already developed a class/module and it has gone through the unit testin
 * Potential to break the SRP as it may perform multiple responsibilities.
 * Implementing all the functionality in a single class adds difficulty to the maintenance.
 
+### The demonstration
+In our project we will take a document which requests time off, we will call this object the RequestDocument.  This document will need to figure out who the approvers are based upon the position in the workflow.
+
+![alt text](https://github.com/mspiker/SOLID-Principals/blob/[branch]/image.jpg?raw=true)
