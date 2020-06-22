@@ -85,6 +85,6 @@ We have already developed a class/module and it has gone through the unit testin
 * Implementing all the functionality in a single class adds difficulty to the maintenance.
 
 ### The demonstration
-In our project we will take a document which requests time off, we will call this object the RequestDocument.  This document will need to figure out who the approvers are based upon the position in the workflow.
+In our project we will take a document which requests time off, we will call this object the RequestDocument.  This document will need to figure out who the approvers are based upon the position in the workflow.  In the diagrame below we will create a base class called Document then extend that as requirements are added.  
 
-![alt text](https://github.com/mspiker/SOLID-Principals/blob/[branch]/image.jpg?raw=true)
+![Open-closed Principal (OCP) Example](https://github.com/mspiker/SOLID-Principals/blob/master/SOLIDPrincipals/blob/OCP-1.png?raw=true)
